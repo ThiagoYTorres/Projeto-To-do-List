@@ -27,7 +27,7 @@ if(input.value ==''){
 
     //? CHECKBOX
     checkbox.type = "checkbox"
-    lista.appendChild(checkbox)
+    tarefa.appendChild(checkbox)
     checkbox.classList.add('check')
     checkbox.addEventListener('click',function(){
     if(checkbox.checked == true){

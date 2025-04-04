@@ -56,12 +56,14 @@ button:hover{
     font-size: 1.3rem;
     border: solid 0.3px black;
     padding: 5px;
+    margin-bottom: 15px;
     padding-left: 44px;
     border-radius: 5px;
     max-width: 600px;
     display: flex;
     align-items: center;
     animation: slidedown 0.3s ease-out forwards;
+    position: relative;
 
     
 }
@@ -75,16 +77,16 @@ button:hover{
 }
 .check{
     height: 25px;
-    position: relative;
-    bottom: 32px;
-    right: 230px;
+    position: absolute;
+    top: 2px;
+    right: 310px;
     margin: 0;
     padding: 0;
     animation: slidedown 0.3s ease-out forwards;
 }
 .lixo{
     position: absolute;
-    left: 540px;
+    left: 545px;
     transition: 0.3s;
 }
 .lixo:hover{
