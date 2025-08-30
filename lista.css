@@ -17,10 +17,19 @@ h1{
     padding: 20px;
 }
 h3{
+   font-size: 1.7rem;
    margin-top: 25px;
    margin-bottom: 10px;
 }
-
+.msg{
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(60, 60, 60);
+    background-color: rgba(177, 177, 177, 0.668);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
 .container{
     margin: auto;
     margin-top: 50px;
@@ -37,7 +46,7 @@ h3{
 }
 input{
     width: 500px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 5px;
 }
 button{

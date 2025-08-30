@@ -2,6 +2,7 @@ const botao = document.querySelector('button')
 const input = document.querySelector('input')
 const lista = document.querySelector('.list')
 const erro = document.querySelector('span')
+const msg = document.querySelector('.msg')
 
 botao.addEventListener("click",gerarTarefa)
 window.addEventListener('keydown',enter)
@@ -12,6 +13,7 @@ if(input.value ==''){
     erro.classList.add('erro')
 
 } else{
+    msg.style.display = 'none'
     // Erro
     erro.style.display = 'none'
 
@@ -32,8 +34,10 @@ if(input.value ==''){
     checkbox.addEventListener('click',function(){
     if(checkbox.checked == true){
         tarefa.style.textDecoration ='line-through'
+        tarefa.style.color = 'grey'
     } else{
         tarefa.style.textDecoration =''
+        tarefa.style.color = 'black'
     }
         
     })
